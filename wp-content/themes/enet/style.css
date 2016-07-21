@@ -1,0 +1,96 @@
+/*
+Theme Name: E-Net
+Author: cmeehan
+Description: The main Elon application
+Version: 1.0
+Tags: Elon, E-Net
+*/
+
+
+h1{
+    color:red !important;
+}
+
+.page-title{
+    color:#730000 !important;
+    background:#b59a57;
+    width:fit-content;
+}
+
+/*************
+*Sidebar Style
+*************/
+.sidebar{
+    float:left;
+    list-style:none;
+    font-family:"Verdana";
+    width:400px;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-right:100px;
+    height:100%;
+}
+
+.sidebar .entry-title{
+    font-size:1em;
+}
+
+.sidebar li{
+    border-top:1px solid #9f9aa4;
+}
+.sidebar li:last-of-type{
+    border-bottom:1px solid #9f9aa4;
+}
+
+.sidebar li a{
+    color:#535961;
+    font-size:2em;
+}
+
+.sidebar li a:hover{
+    text-decoration: none;
+    color:#660000;
+}
+
+.sidebar li:hover a, .sidebar li:hover{
+    background:#cccacc;
+    color:#660000;
+}
+
+.date{
+    font-size:0.5em;
+}
+
+.author{
+    font-size:0.5em;
+}
+
+/*******************
+Search form location
+*******************/
+.search_form{
+    width:100%;
+    list-style:none;
+    position:absolute;
+    top:225px;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: 1;
+}
+/************
+Home Template
+************/
+.homepage-body h1{
+    color:#660000 !important;
+    font-family:"Verdana";
+}
+
+.homepage-body p{
+    font-size:1.25em;
+    font-family:"Verdana";
+    text-align:justify;
+}
+
+.screen-reader-text{
+    border-bottom:1px solid black;
+}
